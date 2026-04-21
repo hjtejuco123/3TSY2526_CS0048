@@ -26,5 +26,27 @@
 # print (numbers)
 
 #print values 
-print (5+3)
-print ("sum", 5+3)
+# print (5+3)
+# print ("sum", 5+3)
+
+
+#print formatting  
+#f - formatted string literals
+
+#print(f"text {var}")
+
+# name = "Alice"
+# age = 23
+# print (f"My name is, {name} and i am {age} years old.")
+# a=5
+# b=10
+# print (f"The sum of {a} and {b} is {a+b}.")
+# pi = 3.14159
+# print (f"The value of pi is approximately {pi:.2f}.")
+# num  = 7 
+# print (f"The number is {num:03d}.")
+
+text = "Hi"
+print (f"{text:<10}") # left align
+print (f"{text:>10}") # right align
+print (f"{text:^10}") # center align
