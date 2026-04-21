@@ -19,7 +19,24 @@
 # sum = num1 + num2
 # print("The sum is:", sum)
 
-a,b = map(int, input("Enter two numbers separated by space: ").split())
-print("The sum is:", a+b)
+# a,b = map(int, input("Enter two numbers separated by space: ").split())
+# print("The sum is:", a+b)
 
-#"10 20" -> ["10", "20"] -> [10, 20]
+# #"10 20" -> ["10", "20"] -> [10, 20]
+
+# name, age = input("Enter your name and age separated by space: ").split()
+# age = int(age)
+# print(f"Hello {name}, you are {age} years old.")
+# print (type(name), type(age)) #<class 'str'> <class 'int'>
+
+# name, age, height = input("Enter your name, age and height separated by space: ").split()
+# age = int(age)
+# height = float(height)
+# print(f"Name: {name}, Age: {age}, Height: {height} cm")
+# print (type(name), type(age), type(height)) #<class 'str'> <class 'int'> <class 'float'>
+
+
+#eval() function
+result =eval("2+3.3")
+print (result) #5
+print (type(result)) #<class 'int'>
