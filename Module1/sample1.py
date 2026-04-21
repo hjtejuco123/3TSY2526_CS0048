@@ -46,7 +46,18 @@
 # num  = 7 
 # print (f"The number is {num:03d}.")
 
-text = "Hi"
-print (f"{text:<10}") # left align
-print (f"{text:>10}") # right align
-print (f"{text:^10}") # center align
+# text = "Hi"
+# print (f"{text:<10}") # left align
+# print (f"{text:>10}") # right align
+# print (f"{text:^10}") # center align
+
+# score = 0.85
+# print (f"Your score is {score:.2%}")
+# print (f"Your score is {score:.0%}")
+
+# age = 18
+# print (f"Status: {'Adult' if age >= 18 else 'Minor'}")
+
+number = 1000000
+print (f"The number is {number:,}")
+print (f"The number is {number:,.2f}")
