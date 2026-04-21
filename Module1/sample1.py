@@ -14,5 +14,13 @@
 # print ("Apple","Banana","Cherry", sep=" | ")
 
 #end statement
-print ("Hello", end=" ")
-print ("World!")
+# print ("Hello", end=" ")
+# print ("World!")
+
+# print ("hello\nworld")
+
+#printing List 
+fruits = ["Apple", "Banana", "Cherry"]
+print (fruits)
+numbers = [1, 2, 3, 4, 5]
+print (numbers)
