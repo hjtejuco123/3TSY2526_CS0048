@@ -89,3 +89,9 @@ print (f"Full date: {today:%Y-%B-%d}")
 #M - 00-59
 #S - 00-59
 print (f"Current time is {today:%H:%M:%S%p}")
+
+# single line comment
+'''
+multi line comment
+
+'''
