@@ -11,5 +11,8 @@
 # print ("Name:", name, "Age:", age)
 
 #print with separators
+# print ("Apple","Banana","Cherry", sep=" | ")
 
-print ("Apple","Banana","Cherry", sep=" | ")
+#end statement
+print ("Hello", end=" ")
+print ("World!")
