@@ -58,6 +58,34 @@
 # age = 18
 # print (f"Status: {'Adult' if age >= 18 else 'Minor'}")
 
-number = 1000000
-print (f"The number is {number:,}")
-print (f"The number is {number:,.2f}")
+# number = 1000000
+# print (f"The number is {number:,}")
+# print (f"The number is {number:,.2f}")
+
+#dates 
+from datetime import datetime
+today = datetime.now()
+#Y - 2026, y - 26
+#m - 01
+#b - Jan
+#B - January
+#d - 01
+#j - 001
+#a - Mon
+#A - Monday
+#print (f"Today's date is {today:%Y-%B-%d}")
+
+print (f"Year: {today:%Y}")
+print (f"Month: {today:%B}")
+print (f"Day: {today:%d}")
+print (f"Day of the year: {today:%j}")
+print (f"Weekday: {today:%A}") 
+print (f"Full date: {today:%Y-%B-%d}") 
+
+#time 
+#H - 00-23
+#I - 01-12
+#p - AM/PM
+#M - 00-59
+#S - 00-59
+print (f"Current time is {today:%H:%M:%S%p}")
