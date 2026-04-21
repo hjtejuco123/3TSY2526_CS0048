@@ -4,8 +4,12 @@
 # print ("Hello, World!")
 
 #printing variables
-name = "Alice"
-age = 20
-print (name, age)
-print (f"{name} is {age} years old.")
-print ("Name:", name, "Age:", age)
+# name = "Alice"
+# age = 20
+# print (name, age)
+# print (f"{name} is {age} years old.")
+# print ("Name:", name, "Age:", age)
+
+#print with separators
+
+print ("Apple","Banana","Cherry", sep=" | ")
