@@ -20,7 +20,11 @@
 # print ("hello\nworld")
 
 #printing List 
-fruits = ["Apple", "Banana", "Cherry"]
-print (fruits)
-numbers = [1, 2, 3, 4, 5]
-print (numbers)
+# fruits = ["Apple", "Banana", "Cherry"]
+# print (fruits)
+# numbers = [1, 2, 3, 4, 5]
+# print (numbers)
+
+#print values 
+print (5+3)
+print ("sum", 5+3)
