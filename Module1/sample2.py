@@ -37,6 +37,14 @@
 
 
 #eval() function
-result =eval("2+3.3")
-print (result) #5
-print (type(result)) #<class 'int'>
+# result =eval("2+3")
+# print (result) #5
+# print (type(result)) #<class 'int'>
+
+#indentation
+
+age = 17
+if age >= 18:
+    print ("You are an adult.")
+else:
+    print ("You are a minor.")  

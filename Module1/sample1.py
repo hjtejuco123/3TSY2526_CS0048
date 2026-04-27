@@ -7,6 +7,8 @@
 # name = "Alice"
 # age = 20
 # print (name, age)
+# # syntax f-string (formatted string literals)
+# #print (f"text {var}")
 # print (f"{name} is {age} years old.")
 # print ("Name:", name, "Age:", age)
 
@@ -16,12 +18,13 @@
 #end statement
 # print ("Hello", end=" ")
 # print ("World!")
-
 # print ("hello\nworld")
 
 #printing List 
 # fruits = ["Apple", "Banana", "Cherry"]
 # print (fruits)
+# print ("Apple","Banana","Cherry")
+
 # numbers = [1, 2, 3, 4, 5]
 # print (numbers)
 
@@ -41,9 +44,9 @@
 # a=5
 # b=10
 # print (f"The sum of {a} and {b} is {a+b}.")
-# pi = 3.14159
+# pi = 3.14159 # decimal -> float  (f)
 # print (f"The value of pi is approximately {pi:.2f}.")
-# num  = 7 
+# num  = 7  #integer (d)
 # print (f"The number is {num:03d}.")
 
 # text = "Hi"
@@ -55,7 +58,7 @@
 # print (f"Your score is {score:.2%}")
 # print (f"Your score is {score:.0%}")
 
-# age = 18
+# age = 17
 # print (f"Status: {'Adult' if age >= 18 else 'Minor'}")
 
 # number = 1000000
@@ -70,28 +73,28 @@ today = datetime.now()
 #b - Jan
 #B - January
 #d - 01
-#j - 001
+#j - 001 - 365
 #a - Mon
 #A - Monday
-#print (f"Today's date is {today:%Y-%B-%d}")
+# print (f"Today's date is {today:%Y-%B-%j}")
 
-print (f"Year: {today:%Y}")
-print (f"Month: {today:%B}")
-print (f"Day: {today:%d}")
-print (f"Day of the year: {today:%j}")
-print (f"Weekday: {today:%A}") 
-print (f"Full date: {today:%Y-%B-%d}") 
+# print (f"Year: {today:%Y}")
+# print (f"Month: {today:%B}")
+# print (f"Day: {today:%d}")
+# print (f"Day of the year: {today:%j}")
+# print (f"Weekday: {today:%A}") 
+# print (f"Full date: {today:%Y-%B-%d}") 
 
-#time 
-#H - 00-23
-#I - 01-12
-#p - AM/PM
-#M - 00-59
-#S - 00-59
-print (f"Current time is {today:%H:%M:%S%p}")
+# #time 
+# #H - 00-23
+# #I - 01-12
+# #p - AM/PM
+# #M - 00-59
+# #S - 00-59
+# print (f"Current time is {today:%H:%M:%S%p}") # single line comment
 
 # single line comment
-'''
-multi line comment
+# '''
+# multi line comment
 
-'''
+# '''
