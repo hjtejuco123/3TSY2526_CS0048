@@ -36,12 +36,12 @@
 # print("Blast off!")
 
 # Keep asking until valid input
-password = ""
-while password != "python":
-    password = input("Enter password: ")
-    if password != "python":
-        print("Incorrect password, try again")
-print("Access granted!")
+# password = ""
+# while password != "python":
+#     password = input("Enter password: ")
+#     if password != "python":
+#         print("Incorrect password, try again")
+# print("Access granted!")
 
 
 # Calculate sum of numbers from 1 to n
