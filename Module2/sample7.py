@@ -1,6 +1,6 @@
 # Example 7: Voting eligibility
 # Check voting eligibility
-age = 18
+age = 14
 if age >= 18:
     print("You can vote in the election")
 else:

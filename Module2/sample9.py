@@ -1,5 +1,5 @@
 # Example 9: Odd/Even checker
-number = 8
+number = 9
 if number % 2 == 0:
     print(f"{number} is even")
 else:

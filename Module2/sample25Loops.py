@@ -87,6 +87,7 @@
 #     print("This will not be printed")
 
 
+
 # Check if a number is prime
 # num = 17
 # i = 2
@@ -149,7 +150,7 @@
 
 # Search for a value in a list
 # numbers = [1, 3, 5, 7, 9]
-# target = 6
+# target = 9
 
 # for num in numbers:
 #     if num == target:
@@ -258,12 +259,12 @@
 
 
 # Conditional with placeholder
-# user_role = "admin"
+user_role = "admin"
 
-# if user_role == "admin":
-#     print("Admin access granted")
-# elif user_role == "editor":
+if user_role == "admin":
+    print("Admin access granted")
+elif user_role == "editor":
    
-#     pass
-# else:
-#     print("Guest access")
+    pass
+else:
+    print("Guest access")

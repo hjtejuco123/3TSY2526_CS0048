@@ -23,8 +23,8 @@
 #         row.append(i * 3 + j + 1)
 #     matrix.append(row)
 
-# # # Print the matrix
-# # for row in matrix:
+# # # # Print the matrix
+# # # for row in matrix:
 #     for item in row:
 #         print(item, end=" ")
 #     print()

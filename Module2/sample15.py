@@ -3,11 +3,21 @@ weight = 70  # kg
 height = 1.75  # meters
 bmi = weight / (height ** 2)
 
+# if bmi < 18.5:
+#     category = "Underweight"
+# elif 18.5 <= bmi < 25:
+#     category = "Normal weight"
+# elif 25 <= bmi < 30:
+#     category = "Overweight"
+# else:
+#     category = "Obesity"
+
+
 if bmi < 18.5:
     category = "Underweight"
-elif 18.5 <= bmi < 25:
+elif bmi >= 18.5 and bmi < 25:
     category = "Normal weight"
-elif 25 <= bmi < 30:
+elif bmi >= 25 and bmi < 30:
     category = "Overweight"
 else:
     category = "Obesity"
