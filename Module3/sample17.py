@@ -1,3 +1,4 @@
+#numeric default parameters
 def calculate_interest(principal, rate=0.05, years=1):
     """Calculate simple interest with default rate and time"""
     interest = principal * rate * years

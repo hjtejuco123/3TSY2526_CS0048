@@ -1,0 +1,23 @@
+
+Functions
+    group of related statements that performs a specific task
+    break code into smaller chucks
+    organize, manage 
+    avoid repetition and code resuable
+
+types of Functions
+    Build in Functions 
+        comes with python
+            print()
+    User define Functions   
+        user create function base on the task 
+    Anonymous function 
+        declare def keyword
+
+Syntax
+
+    def function_name (parameters):
+        docstring -> """TEXT"""
+        function of the body
+        return 
+
