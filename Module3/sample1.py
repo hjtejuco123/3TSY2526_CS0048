@@ -3,5 +3,5 @@ def greet(name):
     print(f"Hello, {name}! Welcome to Python functions.")
 
 # Get user input
-user_name = input("Enter your name: ")
-greet(user_name)
+user_name = input("Enter your name: ") # string class hadji
+greet(user_name) # function call 

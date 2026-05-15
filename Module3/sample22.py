@@ -1,3 +1,7 @@
+#syntax
+
+# lambda arg:expression
+
 # Get user input
 num = float(input("Enter a number to square: "))
 

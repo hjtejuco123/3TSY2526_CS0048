@@ -9,15 +9,39 @@ types of Functions
     Build in Functions 
         comes with python
             print()
+            import math = pi, cos 
     User define Functions   
         user create function base on the task 
-    Anonymous function 
+    Anonymous function (lambda)
         declare def keyword
 
 Syntax
+    def function_x(a,b,c):
+        """
+        Description
 
-    def function_name (parameters):
-        docstring -> """TEXT"""
+        parameters
+            value a,b,c 
+        
+        inputs
+
+        return value 
+        
+
+        """
+    
+    def testfunction (parameters):
+        """
+        Description 
+
+        paramters 
+
+
+        TEXT
+        
+        """
         function of the body
         return 
-
+    
+    testfunction()
+    function_x(a,b,c)

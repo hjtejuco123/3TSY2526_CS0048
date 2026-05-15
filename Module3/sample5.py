@@ -1,8 +1,8 @@
 def factorial(n):
     """This function calculates factorial of a number iteratively"""
     result = 1
-    for i in range(1, n + 1):
-        result *= i
+    for i in range(1, n+1):
+        result *= i #accumulator  = result = result + i
     return result
 
 # Get user input
