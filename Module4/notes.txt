@@ -20,3 +20,57 @@ class ClassName:
     def method_name (sef,parameters):
         """DOCSTRING"""
         #code
+
+***************************************
+
+Parent - Base Class 
+    Class - where (attributes-variables) and (methods-functions) will be inherited
+
+Child - Derived Class 
+    Class (inherit from the base class )
+
+Reuse
+
+super() function 
+    used to call the method from the parent within the child class 
+    avoid conflict which is reference to the parent class 
+
+#Parent Class
+class BaseClass:
+    def __init__(self, attributes):
+        ""DOCSTRING"""
+        self.attributes = attributes
+          
+    def method_name_x (sef):
+        """DOCSTRING"""
+        #code
+
+#Child Class 
+class DerivedClass(BaseClass):
+    def __init__(self, Attributes, newAttributes):
+        super().__init_(attributes) # call the constructor from the base class 
+        self.new_attributes = new_attributes
+    def new_method(self):
+        print ("XYZ - inside the derived class)
+    def method_name_x(self):
+        print ("This method is overidden in the child class)
+
+*****************************************
+Encapsulation
+    Data Hiding 
+        prevent unauthorized or accidental modification of data 
+
+    Access Modifiers
+        visibility attributes and methods   
+            public - accesible from anywhere 
+            protected - attributes should not be accessed directly from the class (_attributes)
+            private - prevent direct access from outside the class (__attributes)
+
+    Getter and Setters methods  
+        Set 
+        Get 
+    
+    Advantage
+        Improve the security of the methods and attributes 
+        promotes modularity and resuability 
+    
