@@ -1,0 +1,22 @@
+Syntax 
+
+class ClassName:
+    """
+        Docstring
+            Describe the contents
+            *optional
+            *add docstring
+    """
+    class_attributes = value
+    # variables - store
+
+    #methods 
+    #__init__ -> constructor -> called when an object is created
+    def __init__(self, arg1,arg2):
+        ""DOCSTRING"""
+        self.instance_attributes1 = arg1
+        self.instance_attributes2 = arg2
+    
+    def method_name (sef,parameters):
+        """DOCSTRING"""
+        #code
