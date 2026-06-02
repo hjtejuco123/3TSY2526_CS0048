@@ -1,0 +1,9 @@
+banking_system
+  |
+  | - main.py - holds the main menu
+  |
+  | ---- bank.  - Package
+           |
+           |  -- __init__.py 
+           |  -- account.py - holds ( check_balance)
+           |  -- transcation - holds (deposit, withdraw}
