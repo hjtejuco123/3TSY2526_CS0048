@@ -1,0 +1,21 @@
+
+Numbers
+    integers, float, complex numbers 
+
+List
+    mutable 
+    ordered sequence of mixed data type 
+Tuple
+    immutable
+    ordered sequence 
+String
+    immutable
+    character sequence
+    "Hello"
+Set
+    Unique 
+    Unordered collection of unique 
+    immutable 
+Dictionary
+    Unordered key-value pair 
+    mutable 
