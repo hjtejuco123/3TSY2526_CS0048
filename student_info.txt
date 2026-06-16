@@ -1,0 +1,4 @@
+Student Information
+-------------------
+Name: hadji Tejuco
+Course: BSCS
