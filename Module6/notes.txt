@@ -1,0 +1,8 @@
+
+
+Use varibles -> temporary (volatile)
+reset -> lose data values 
+
+Store Permanently -> File Handing (file) save into hard disks
+
+Save logs -> transaction, data 
